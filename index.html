@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+   
+</head>
+<body>
+    <header>
+       
+        <nav class="px-7 flex justify-between items-center shadow-md shadow-black">
+            <img class="w-16" src="mu/iconn.png" alt="">
+            <ul class="hidden md:flex md:items-center md:space-x-14">
+                <li class="font-bold duration-500 cursor-pointer hover:text-lime-600 hover:border-b border-lime-600">Home</li>
+                <li class="font-bold duration-500 cursor-pointer hover:text-lime-600 hover:border-b border-lime-600">Shop</li>
+                <li class="font-bold duration-500 cursor-pointer hover:text-lime-600 hover:border-b border-lime-600">Blog</li>
+                <li class="font-bold duration-500 cursor-pointer hover:text-lime-600 hover:border-b border-lime-600">About</li>
+                <li class="font-bold duration-500 cursor-pointer hover:text-lime-600 hover:border-b border-lime-600">contact</li>
+                <div>
+                    <i class="fa-solid fa-store cursor-pointer hover:text-lime-600"></i>
+                </div>
+            </ul>
+            <i id="showmenu" class="fa fa-bars md:hidden cursor-pointer hover:text-lime-600 text-[21px]"></i>
+        </nav>
+        <!-- width menu -->
+        <div class="show text-center pt-5 hidden">
+            <ul class="md:hidden space-y-5">
+                <li class="font-bold duration-500 cursor-pointer hover:text-lime-600 hover:border-b border-lime-600">Home</li>
+                <li class="font-bold duration-500 cursor-pointer hover:text-lime-600 hover:border-b border-lime-600">Shop</li>
+                <li class="font-bold duration-500 cursor-pointer hover:text-lime-600 hover:border-b border-lime-600">Blog</li>
+                <li class="font-bold duration-500 cursor-pointer hover:text-lime-600 hover:border-b border-lime-600">About</li>
+                <li class="font-bold duration-500 cursor-pointer hover:text-lime-600 hover:border-b border-lime-600">contact</li>
+                <div>
+                    <i class="fa-solid fa-store cursor-pointer text-4xl hover:text-lime-600"></i>
+                </div>
+            </ul>
+        </div>
+        <!-- img and text -->
+        <div class="mt-4 pt-6">
+            <div class="container mx-auto">
+                <div class="flex flex-col space-y-4 md:flex-row md:justify-between md:items-center md:space-y-0">
+                    <div class="space-y-2 ml-44 md:ml-0">
+                        <p>Trade-in-offer</p>
+                        <h2 class="md:text-[55px] font-bold capitalize">super value deals</h2>
+                        <h1 class="text-lime-600 font-bold md:text-[55px]" style="word-spacing: 25px;">On all products</h1>
+                        <h4 class="text-gray-400 text-[12px]">save more with coupons & up to 70% 0!!!</h4>
+                        <div class="pt-4">
+                            <button class="bg-yellow-200 text-lime-600 py-3 px-12 rounded-lg hover:shadow-xl shadow-yellow-300 hover:scale-105">Shop New</button>
+                        </div>
+                    </div>
+                    <div class="mr-16 pt-6 md:mr-0 md:pt-0">
+                        <img src="mu/girl.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+       
+    </header>
+    <section>
+        <div class="mt-4 pt-2 pb-20">
+            <div class="container mx-auto">
+                <div class="mt-3 pt-2 text-center">
+                    <h1 class="font-bold capitalize text-4xl">featured products</h1>
+                    <h4 class="text-[11px] text-gray-500 capitalize">summer collection new morden design</h4>
+                </div>
+                <div class="flex flex-col space-y-6 ml-28 md:ml-0 md:flex-row md:justify-center md:space-y-0 md:gap-12 md:flex-wrap mt-7">
+                    <div class="w-[270px] shadow-md shadow-black pb-3">
+                        <img class=" slide w-[100%] h-[300px] object-cover cursor-pointer" src="IMAGE-2/sh1.webp" alt="" title="click Me">
+                        <div class="px-2">
+                            <p>odidas</p>
+                            <h1>cartoon Astronaut T-Shirts</h1>
+                        </div>
+                        <div class="px-2 flex justify-between">
+                            <div>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                            </div>
+                            <div class="mr-6">
+                                <i class="fa-solid fa-store text-lime-600"></i>
+                            </div>
+                        </div>
+                        <div class="px-2">
+                            <h4 class="font-bold text-lime-600">$78</h4>
+                        </div>
+                    </div>
+                    <!-- IMage Box2 -->
+                    <div class="w-[270px] shadow-md shadow-black pb-3">
+                        <img class=" slide w-[100%] h-[300px] object-cover cursor-pointer" src="IMAGE-2/sh2.jpg" alt="" title="click Me">
+                        <div class="px-2">
+                            <p>odidas</p>
+                            <h1>cartoon Astronaut T-Shirts</h1>
+                        </div>
+                        <div class="px-2 flex justify-between">
+                            <div>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                            </div>
+                            <div class="mr-6">
+                                <i class="fa-solid fa-store text-lime-600"></i>
+                            </div>
+                        </div>
+                        <div class="px-2">
+                            <h4 class="font-bold text-lime-600">$78</h4>
+                        </div>
+                    </div>
+                    <!-- Image Box 3 -->
+                    <div class="w-[270px] shadow-md shadow-black pb-3">
+                        <img class=" slide w-[100%] h-[300px] object-cover cursor-pointer" src="IMAGE-2/sh3.webp" alt="" title="click Me">
+                        <div class="px-2">
+                            <p>odidas</p>
+                            <h1>cartoon Astronaut T-Shirts</h1>
+                        </div>
+                        <div class="px-2 flex justify-between">
+                            <div>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                            </div>
+                            <div class="mr-6">
+                                <i class="fa-solid fa-store text-lime-600"></i>
+                            </div>
+                        </div>
+                        <div class="px-2">
+                            <h4 class="font-bold text-lime-600">$78</h4>
+                        </div>
+                    </div>
+                    <!-- Image Box 4 -->
+                    <div class="w-[270px] shadow-md shadow-black pb-3">
+                        <img class=" slide w-[100%] h-[300px] object-cover cursor-pointer" src="IMAGE-2/sh4.jpg" alt="" title="click Me">
+                        <div class="px-2">
+                            <p>odidas</p>
+                            <h1>cartoon Astronaut T-Shirts</h1>
+                        </div>
+                        <div class="px-2 flex justify-between">
+                            <div>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                            </div>
+                            <div class="mr-6">
+                                <i class="fa-solid fa-store text-lime-600"></i>
+                            </div>
+                        </div>
+                        <div class="px-2">
+                            <h4 class="font-bold text-lime-600">$78</h4>
+                        </div>
+                    </div>
+                    <!-- Image Box 5 -->
+                    <div class="w-[270px] shadow-md shadow-black pb-3">
+                        <img class=" slide w-[100%] h-[300px] object-cover cursor-pointer" src="IMAGE-2/sh5.webp" alt="" title="click Me">
+                        <div class="px-2">
+                            <p>odidas</p>
+                            <h1>cartoon Astronaut T-Shirts</h1>
+                        </div>
+                        <div class="px-2 flex justify-between">
+                            <div>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                            </div>
+                            <div class="mr-6">
+                                <i class="fa-solid fa-store text-lime-600"></i>
+                            </div>
+                        </div>
+                        <div class="px-2">
+                            <h4 class="font-bold text-lime-600">$78</h4>
+                        </div>
+                    </div>
+                    <!-- Image Box 6 -->
+                    <div class="w-[270px] shadow-md shadow-black pb-3">
+                        <img class=" slide w-[100%] h-[300px] object-cover cursor-pointer" src="IMAGE-2/sh6.jpg" alt="" title="click Me">
+                        <div class="px-2">
+                            <p>odidas</p>
+                            <h1>cartoon Astronaut T-Shirts</h1>
+                        </div>
+                        <div class="px-2 flex justify-between">
+                            <div>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                            </div>
+                            <div class="mr-6">
+                                <i class="fa-solid fa-store text-lime-600"></i>
+                            </div>
+                        </div>
+                        <div class="px-2">
+                            <h4 class="font-bold text-lime-600">$78</h4>
+                        </div>
+                    </div>
+                    <!-- Image Box 7 -->
+                    <div class="w-[270px] shadow-md shadow-black pb-3">
+                        <img class=" slide w-[100%] h-[300px] object-cover cursor-pointer" src="IMAGE-2/sh7.webp" alt="" title="click Me">
+                        <div class="px-2">
+                            <p>odidas</p>
+                            <h1>cartoon Astronaut T-Shirts</h1>
+                        </div>
+                        <div class="px-2 flex justify-between">
+                            <div>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                            </div>
+                            <div class="mr-6">
+                                <i class="fa-solid fa-store text-lime-600"></i>
+                            </div>
+                        </div>
+                        <div class="px-2">
+                            <h4 class="font-bold text-lime-600">$78</h4>
+                        </div>
+                    </div>
+                    <!-- Image Box 8 -->
+                    <div class="w-[270px] shadow-md shadow-black pb-3">
+                        <img class=" slide w-[100%] h-[300px] object-cover cursor-pointer" src="IMAGE-2/sh8.webp" alt="" title="click Me">
+                        <div class="px-2">
+                            <p>odidas</p>
+                            <h1>cartoon Astronaut T-Shirts</h1>
+                        </div>
+                        <div class="px-2 flex justify-between">
+                            <div>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                                <i class="fa fa-star text-yellow-400"></i>
+                            </div>
+                            <div class="mr-6">
+                                <i class="fa-solid fa-store text-lime-600"></i>
+                            </div>
+                        </div>
+                        <div class="px-2">
+                            <h4 class="font-bold text-lime-600">$78</h4>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="showSection" class="bg-white fixed top-0 left-0 w-full h-screen hidden">
+        <div class="container mx-auto">
+            <span id="span" class=" absolute top-20 right-20 text-4xl cursor-pointer hover:text-red-700 z-20">&times;</span>
+            <div class="w-[400px] h-[600px] shadow-md shadow-black mt-7 px-3 pt-2 rounded-lg">
+                
+                <img id="imgme" class="w-[300px] m-auto" src="IMAGE-2/sh1.webp" alt="">
+
+                <div class="flex justify-center items-center gap-3 mt-8">
+                    <div class="w-[170px] h-[135px] border border-black"><img class="fullWith w-[100%] h-[100%] object-cover cursor-pointer duration-500" src="IMAGE-2/sh7.webp" alt=""></div>
+                    <div class="w-[170px] h-[135px] border border-black"><img class="fullWith w-[100%] h-[100%] object-cover cursor-pointer duration-500" src="IMAGE-2/sh3.webp" alt=""></div>
+                    <div class="w-[170px] h-[135px] border border-black"><img class="fullWith w-[100%] h-[100%] object-cover cursor-pointer duration-500" src="IMAGE-2/sh5.webp" alt=""></div>
+
+                </div>
+            </div>
+            <div class="absolute top-10 left-[40%] pr-10">
+                <p class="text-[14px] font-bold">Home / T-Shirt</p>
+                <div><h1 class="text-3xl font-bold mt-4">Men`s Fashion T Shirt</h1></div>
+                <div class="mt-9">
+                    <h2 class="text-3xl font-bold hover:text-lime-600">$139.00</h2>
+                    <select class="border border-black w-[120px] text-center rounded-md shadow-md shadow-black outline-none mt-3">
+                        <option>Show Siez</option>
+                        <option>Lx</option>
+                        <option>Lxsx</option>
+                        <option>Lxcc</option>
+                    </select>
+                    <div class="flex space-x-10 mt-6">
+                        <h1 class="border border-black px-6 flex justify-center items-center text-3xl font-bold">1</h1>
+                        <button class="bg-lime-600 text-white py-2 px-10 hover:scale-110 hover:shadow-2xl shadow-lime-500">Add To Cart</button>
+                    </div>
+                </div>
+                <h1 class="mt-12">product Details</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quo dignissimos itaque quas ad repellat? Perspiciatis dignissimos fuga, expedita est dolorem officia mollitia ipsam velit explicabo quia blanditiis excepturi enim.
+                Distinctio quam ex, asperiores consequatur obcaecati dolorem amet fuga laboriosam deleniti velit, dicta earum illo architecto mollitia! Similique fugit doloribus possimus, voluptatum enim omnis neque, voluptas iure molestias, dolore nobis?
+                Asperiores magnam reprehenderit molestias nostrum ab tenetur odio officia! Obcaecati in natus maiores laboriosam consequuntur tempora magni, eos eaque impedit sit doloremque animi exercitationem beatae maxime et fugit, quod veniam.
+                Praesentium eum blanditiis dolor ipsa et nostrum nemo vitae exercitationem, assumenda rerum cupiditate aperiam obcaecati consequuntur iusto maxime vel, beatae, ullam nesciunt? Provident illo culpa fugiat ipsam nemo odio iusto?</p>
+            </div>
+        </div>
+    </section>
+    <section class="pb-12">
+        <div class="container mx-auto mt-2 pt-2 px-4 md:px-0">
+            <div class=" w-[100%] h-[300px] bg-no-repeat object-cover bg-cover rounded-md text-center" style="background-image: url('IMAGE-2/background.jpg');">
+                <div class="pt-24">
+                    <p class="font-bold text-white text-[13px]">Repari Services</p>
+                    <h1 class="font-bold text-4xl text-white mt-3">Up to <span class="text-red-700">70% off</span>-All T-Shirts & Accessories</h1>
+                    <button class="bg-white text-black py-2 px-8 rounded-md mt-3">Explore More</button>
+                </div>
+            
+            </div>
+        </div>
+        
+    </section>
+    <section class="pb-12">
+        <div class="container mx-auto mt-3 pt-2">
+            <h1 class="text-center text-4xl font-bold pb-7">Address</h1>
+            <div class="flex flex-col space-y-3 px-2 md:px-0 md:space-y-0 md:flex-row">
+                <div class="md:w-[650px] md:h-[400px] w-[470px] h-[425px] bg-no-repeat bg-cover" style="background-image: url('IMAGE-2/lists.jpg');">
+                   <div class="mt-[23%] ml-10">
+                    <p class="text-white font-bold">Crazy deals</p>
+                    <h1 class="font-bold text-white text-[52px]">buy 1 get 1 free</h1>
+                    <button class="bg-white text-black py-2 px-8 mt-3 uppercase font-bold hover:scale-105">learn more</button>
+                   </div>
+                </div>
+                <div class="md:w-[650px] md:h-[400px] w-[470px] h-[400px] bg-no-repeat bg-cover" style="background-image: url('IMAGE-2/list.jpg');">
+                    <div class="mt-[21%] ml-10">
+                        <p class="text-white font-bold">spring/summer</p>
+                        <h1 class="font-bold text-white text-[52px]">upcomming season</h1>
+                        <p class="text-white font-bold">The best classic dress is on sale at cara</p>
+                        <button class="bg-white text-black py-2 px-8 mt-3 uppercase font-bold hover:scale-105">learn more</button>
+                       </div>
+    
+                </div>  
+                </div>
+                <div class="flex flex-col space-y-2 ml-11 md:ml-0 md:space-y-0 md:flex-row md:justify-center md:space-x-11 mt-8">
+                    <div class="w-[400px] h-[320px] bg-cover bg-no-repeat" style="background-image: url('IMAGE-2/box1.jpg');"></div>
+                    <div class="w-[400px] h-[328px] bg-cover bg-no-repeat" style="background-image: url('IMAGE-2/box2.jpg');"></div>
+                    <div class="w-[400px] h-[320px] bg-cover bg-no-repeat" style="background-image: url('IMAGE-2/lists.jpg');"></div>
+                </div>
+               
+        </div>
+    </section>
+    <footer class="pb-6">
+        <div class="flex flex-col space-y-4 pb-2 md:pb-0 pl-10 md:pl-4 md:space-y-0 md:flex-row md:justify-between md:items-center bg-slate-950 md:w-full md:h-[100px] md:px-24">
+            <div>
+                <h1 class="text-white font-mono">Sign up for Newsletters</h1>
+                <p class="text-[14px] text-gray-500 mt-2">Get E-Mail updates about our latest shop and <span class="text-orange-400">special offers.</span></p>
+            </div>
+            <div>
+                <div>
+                    <input type="text" class="border border-black w-[320px] h-11 px-4 text-black outline-none" placeholder="Your email address">
+                    <button class="bg-lime-600 text-white py-2 px-7">sign Up</button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container mx-auto px-4 mt-3 pt-4">
+            <div class="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-32">
+
+              <div>
+                <h1 class="font-bold text-[20px] cursor-pointer hover:text-lime-500">contact</h1>
+                <div class="mt-4">
+                    <h1 class="font-bold">Adress: <span class="text-gray-400 text-[14px]">562 Wellington Rood.Street 32.Son Francisco</span></h1>
+                    <h1 class="font-bold">phone: <span class="text-gray-400 text-[14px]">+01 2222 365 /(+91) 01 2345 6789</span></h1>
+                    <h1 class="font-bold">Hours: <span class="text-gray-400 text-[14px]">10:00-18:00.Mon - Sat</span></h1>
+                </div>
+              </div>
+
+            <div>
+                <h1 class="font-bold text-[20px] cursor-pointer hover:text-lime-500">About</h1>
+                <div class="mt-4">
+                    <h3 class="font-bold text-gray-400">About Us</h3>
+                    <h3 class="font-bold text-gray-400">Delivery Information</h3>
+                    <h3 class="font-bold text-gray-400">privacy Pokicy</h3>
+                    <h3 class="font-bold text-gray-400">Terms & Conditions</h3>
+                    <h3 class="font-bold text-gray-400">Contact Us</h3>
+                </div>
+            </div>
+
+            <div>
+                <h1 class="font-bold text-[20px] cursor-pointer hover:text-lime-500">My Account</h1>
+                <div class="mt-4">
+                    <h3 class="font-bold text-gray-400">Sign in</h3>
+                    <h3 class="font-bold text-gray-400">View Cart</h3>
+                    <h3 class="font-bold text-gray-400">My Wishlist</h3>
+                    <h3 class="font-bold text-gray-400">Track My Order</h3>
+                    <h3 class="font-bold text-gray-400">Help</h3>
+                </div>
+            </div>
+            <div>
+                <h1 class="font-bold text-[20px] cursor-pointer hover:text-lime-500">Install App</h1>
+                <div class="mt-4">
+                    <h3 class="font-bold text-gray-400">From App Stare Or Google Play</h3>
+
+                    <div class="flex items-center space-x-3 mt-3">
+                        <img class="w-32 h-14 px-3 border border-lime-500" src="mu/app.png" alt="">
+                       <img class="w-32 h-14 px-3 border border-lime-500" src="mu/google.png" alt="">
+                    </div>
+                        <h3 class="font-bold text-gray-400 mt-2">Secured Payment Gateways</h3>
+                        <div class="flex space-x-3 mt-4">
+                            <img class="w-28 h-12" src="mu/icon2.png" alt="">
+                            <img class="w-28 h-12" src="mu/icon1.png" alt="">
+                            <img class="w-28 h-12" src="mu/icon3.webp" alt="">
+                        </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const showSection = document.getElementById("showSection");
+        const slides = document.querySelectorAll(".slide");
+        const span = document.getElementById("span");
+        const imgme = document.getElementById("imgme");
+        const fullWiths = document.querySelectorAll(".fullWith");
+        const showmenu = document.getElementById("showmenu");
+        const show = document.querySelector(".show");
+
+        showmenu.addEventListener('click', () =>{
+            show.classList.toggle("hidden");
+        })
+        slides.forEach(
+            (slide) =>{
+                slide.addEventListener('click', ()=>{
+                    showSection.classList.remove("hidden");
+                })
+            }
+        )
+        span.addEventListener('click', () =>{
+            showSection.classList.add("hidden");
+        })
+        fullWiths.forEach(
+            (fullWith) =>{
+                fullWith.addEventListener('click', ()=>{
+                    imgme.src = fullWith.getAttribute('src');
+                })
+            }
+        )
+    </script>
+</body>
+</html>
